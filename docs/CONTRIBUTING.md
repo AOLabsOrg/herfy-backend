@@ -36,7 +36,7 @@ Thank you for considering contributing to Herfy Backend! This project is open so
 - Add unit tests using xUnit or NUnit.
 
 ## Issues
-- Check the [Issues](https://github.com/AOLabs/herfy-backend/issues) page for tasks.
+- Check the [Issues](https://github.com/AOLabsOrg/herfy-backend/issues) page for tasks.
 - Create a new issue if you find a bug or have a feature request.
 
 ## Questions?
