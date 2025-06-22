@@ -1,0 +1,6 @@
+@HarfyBackend_HostAddress = http://localhost:5072
+
+GET {{HarfyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
