@@ -1,9 +1,9 @@
-# Harfy Backend API Documentation
+# Herfy Backend API Documentation
 
-This document describes the RESTful APIs for Harfy Backend, focused on handmade and heritage products. All APIs use JSON, are secured with HTTPS, and require JWT for protected endpoints.
+This document describes the RESTful APIs for Herfy Backend, focused on handmade and heritage products. All APIs use JSON, are secured with HTTPS, and require JWT for protected endpoints.
 
 ## Base URL
-`https://api.harfy.com`
+`https://api.herfy.com`
 
 ## Authentication
 Protected APIs require a JWT in the `Authorization` header: `Bearer {token}`.

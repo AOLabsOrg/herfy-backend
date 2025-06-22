@@ -1,13 +1,13 @@
-# Contributing to Harfy Backend
+# Contributing to Herfy Backend
 
-Thank you for considering contributing to Harfy Backend! This project is open source, and we welcome contributions from the community.
+Thank you for considering contributing to Herfy Backend! This project is open source, and we welcome contributions from the community.
 
 ## How to Contribute
 1. **Fork the repository**:
    - Click the "Fork" button on GitHub to create a copy of the repository.
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/[your-username]/harfy-backend.git
+   git clone https://github.com/[your-username]/herfy-backend.git
    cd harfy-backend
    ```
 3. **Create a branch**:
@@ -36,8 +36,8 @@ Thank you for considering contributing to Harfy Backend! This project is open so
 - Add unit tests using xUnit or NUnit.
 
 ## Issues
-- Check the [Issues](https://github.com/AOLabs/harfy-backend/issues) page for tasks.
+- Check the [Issues](https://github.com/AOLabs/herfy-backend/issues) page for tasks.
 - Create a new issue if you find a bug or have a feature request.
 
 ## Questions?
-Reach out via GitHub Issues or email [your-email@example.com].
+Reach out via GitHub Issues or email [aolabsorg@outlook.com].

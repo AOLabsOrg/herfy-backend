@@ -1,6 +1,6 @@
-# Setup Guide for Harfy Backend
+# Setup Guide for Herfy Backend
 
-This guide explains how to set up and run the Harfy Backend locally.
+This guide explains how to set up and run the Herfy Backend locally.
 
 ## Prerequisites
 - **.NET SDK 8.0**: Download from [here](https://dotnet.microsoft.com/download).
@@ -11,7 +11,7 @@ This guide explains how to set up and run the Harfy Backend locally.
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/AOLabs/harfy-backend.git
+   git clone https://github.com/AOLabs/herfy-backend.git
    cd harfy-backend
    ```
 2. **Install dependencies**:
@@ -19,27 +19,27 @@ This guide explains how to set up and run the Harfy Backend locally.
    dotnet restore
    ```
 3. **Set up PostgreSQL**:
-   - Create a database named `harfy`:
+   - Create a database named `herfy`:
      ```sql
      CREATE DATABASE harfy;
      ```
-   - Update `src/HarfyBackend/appsettings.json` with your PostgreSQL credentials:
+   - Update `src/HerfyBackend/appsettings.json` with your PostgreSQL credentials:
      ```json
      "ConnectionStrings": {
-       "DefaultConnection": "Host=localhost;Database=harfy;Username=postgres;Password=your_password"
+       "DefaultConnection": "Host=localhost;Database=herfy;Username=postgres;Password=your_password"
      }
      ```
 4. **Run migrations**:
    ```bash
-   cd src/HarfyBackend
+   cd src/HerfyBackend
    dotnet ef database update
    ```
 5. **Configure JWT**:
-   - Update `src/HarfyBackend/appsettings.json` with a secure JWT key:
+   - Update `src/HerfyBackend/appsettings.json` with a secure JWT key:
      ```json
      "Jwt": {
-       "Issuer": "HarfyBackend",
-       "Audience": "HarfyClients",
+       "Issuer": "HerfyBackend",
+       "Audience": "HerfyClients",
        "SecretKey": "your_very_long_secret_key_32_chars"
      }
      ```
