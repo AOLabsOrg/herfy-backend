@@ -1,6 +1,6 @@
-- Harfy Backend
+- Herfy Backend
 
-Backend for Harfy, an open-source platform connecting clients with artisans for handmade and heritage products (e.g., pottery, brasswork). Built with .NET Core and PostgreSQL.
+Backend for Herfy, an open-source platform connecting clients with artisans for handmade and heritage products (e.g., pottery, brasswork). Built with .NET Core and PostgreSQL.
 
 ## Features
 
@@ -13,7 +13,7 @@ Backend for Harfy, an open-source platform connecting clients with artisans for 
 ## Tech Stack
 
 - **.NET Core 8.0**: Web API framework.
-- **PostgreSQL**: Database.
+- **SQL Server**: Database.
 - **Entity Framework Core**: ORM.
 - **Swagger**: API documentation.
 - **JWT**: Authentication.
@@ -23,24 +23,24 @@ Backend for Harfy, an open-source platform connecting clients with artisans for 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/AOLabs/harfy-backend.git
+   git clone https://github.com/AOLabsOrg/herfy-backend.git
    cd harfy-backend
    ```
 
 2. **Install .NET SDK**: Download from here.
 
-3. **Install PostgreSQL**: Download from here.
+3. **Install SQL Server**: Download from here.
 
 4. **Configure environment**:
 
-   - Copy `src/HarfyBackend/appsettings.json` to `appsettings.Development.json`.
+   - Copy `src/HerfyBackend/appsettings.json` to `appsettings.Development.json`.
    - Update `ConnectionStrings.DefaultConnection` with your PostgreSQL credentials.
    - Update `Jwt.SecretKey` with a secure key.
 
 **Run migrations**:
 
 ```bash
-cd src/HarfyBackend
+cd src/HerfyBackend
 dotnet ef database update
 ```
 
@@ -62,4 +62,4 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 ## Contact
 
-For questions, reach out via GitHub Issues or email \[your-email@example.com\].
+For questions, reach out via GitHub Issues or email \[aolabsorg@gmail.com\].
