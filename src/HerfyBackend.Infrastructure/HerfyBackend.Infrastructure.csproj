@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HerfyBackend.Core\HerfyBackend.Core.csproj" />
+  </ItemGroup>
+
 </Project>
